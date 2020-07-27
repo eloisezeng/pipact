@@ -1,0 +1,9 @@
+f, h, t
+3, 82.5, 79.2
+4, 88.5, 79.3
+5, 93, 79.7
+6, 94, 79.5
+7, 91, 79.5
+8, 84.5, 79.5
+9, 84, 79.5
+Discard when doing humidity features (only 8-9 are accurate)

@@ -1,0 +1,14 @@
+I collected data for seven days from 7-11-2020 to 7-18-2020. The data is stored in Zeng_Eloise_CollectedData.zip
+
+The 21 folder names tell the day and the military time at the hour. 
+
+There are eight csv files in each folder. The first seven are scanning data. 
+The last one, info.csv, has the humidity and temperature at each distance. 
+
+The Raspberry Pi's advertised and scanned for 60 seconds at distances of 3, 4, 5, 6, 7, 8, and 9 ft. 
+I started a convenient naming convention for the csv files from day2t17 and onwards. 
+The files are titled f!t@d#. ! is the distance between the Raspberry Pis. @ is the time to the hour. # is the day.
+
+pi_pact_data_ft.csv contains the distance (ft) between the pis, relative humidity, temperature in Fahrenheit, and mean RSSI for each scanning period of 60 seconds.
+
+pi_pact_data.csv contains whether the pis were less than or equal to six feet apart (1 if true, 0 if false), relative humidity, temperature in Fahrenheit, and mean RSSI for each scanning period of 60 seconds.
